@@ -18,6 +18,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/vanilla/overlay
 
+# init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/vanilla/prebuilt/bin/sysinit:system/bin/sysinit
+
+# SpicyVanilla-specific init file
+PRODUCT_COPY_FILES += \
+    vendor/vanilla/prebuilt/etc/init.spicyvanilla.rc:root/init.spicyvanilla.rc
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Stk
