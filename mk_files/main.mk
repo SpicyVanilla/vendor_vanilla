@@ -38,6 +38,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/etc/init.spicyvanilla.rc:root/init.spicyvanilla.rc
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/vanilla/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/vanilla/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/vanilla/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
