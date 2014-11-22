@@ -19,6 +19,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/vanilla/overlay
 
+# Init.d support
+PRODUCT_COPY_FILES += \
+    vendor/vanilla/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/vanilla/prebuilt/bin/sysinit:system/bin/sysinit
+
+# Userinit support
+PRODUCT_COPY_FILES += \
+    vendor/vanilla/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Stk
