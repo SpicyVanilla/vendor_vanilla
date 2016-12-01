@@ -24,6 +24,10 @@ EXCLUDE_SYSTEMUI_TESTS := true
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/vanilla/overlay
 
+# Include explicitly to work around GMS issues
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Stk
