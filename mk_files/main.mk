@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/etc/init.spicyvanilla.rc:root/init.spicyvanilla.rc
 
+# Include explicitly to work around GMS issues
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Stk
