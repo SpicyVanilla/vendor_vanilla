@@ -32,6 +32,11 @@
         <item>com.google.android.deskclock</item>
     </string-array>
 
+    <!-- empheral resolver packages -->
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
+
    <!-- Enable doze powersaving mode -->
    <bool name="config_enableAutoPowerModes">true</bool>
 
