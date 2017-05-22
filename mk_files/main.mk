@@ -15,7 +15,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true \
     ro.opa.eligible_device=true \
     persist.sys.disable_rescue=true \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel
+    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
+    audio.safemedia.bypass=true
 
 # Speed up compiling time
 EXCLUDE_SYSTEMUI_TESTS := true
