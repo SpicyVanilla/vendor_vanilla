@@ -26,5 +26,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 # Boot animation
 $(call inherit-product-if-exists, vendor/vanilla/mk_files/bootanimation.mk)
