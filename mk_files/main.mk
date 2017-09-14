@@ -15,6 +15,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true \
     ro.opa.eligible_device=true
 
+# Speed up compiling time
+EXCLUDE_SYSTEMUI_TESTS := true
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/vanilla/overlay
