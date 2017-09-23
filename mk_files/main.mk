@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    Busybox \
     Stk
 
 # Themes
