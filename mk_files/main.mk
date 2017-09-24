@@ -15,7 +15,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true \
     persist.sys.disable_rescue=true \
     ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
-    audio.safemedia.bypass=true
+    audio.safemedia.bypass=true \
+    ro.com.google.ime.theme_id=5 \
+    ro.wallpapers_loc_request_suw=true
 
 # Speed up compiling time
 EXCLUDE_SYSTEMUI_TESTS := true
