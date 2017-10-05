@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    LiveWallpapersPicker \
     Stk
 
 # Themes
