@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
 # Extra packages
 PRODUCT_PACKAGES += \
     Busybox \
+    LiveWallpapersPicker \
     Stk
 
 # Themes
