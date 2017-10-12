@@ -19,6 +19,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5 \
     ro.wallpapers_loc_request_suw=true
 
+# Jack server heap size
+export ANDROID_JACK_VM_ARGS += "-Xmx4096m"
+
 # Speed up compiling time
 EXCLUDE_SYSTEMUI_TESTS := true
 
