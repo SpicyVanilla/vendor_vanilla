@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
+# Permissions
+PRODUCT_PACKAGES += \
+    privapp-permissions-vanilla.xml
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Busybox \
