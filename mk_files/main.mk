@@ -20,6 +20,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5 \
     ro.wallpapers_loc_request_suw=true
 
+# Disable excessive dalvik debug messages
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.debug.alloc=0
+
 # Jack server heap size
 export ANDROID_JACK_VM_ARGS += "-Xmx4096m"
 
