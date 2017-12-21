@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
 
+# Enable SIP+VoIP on all targets
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
