@@ -17,7 +17,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
     audio.safemedia.bypass=true \
     ro.com.google.ime.theme_id=5 \
-    ro.wallpapers_loc_request_suw=true
+    ro.wallpapers_loc_request_suw=true \
+    ro.sf.lcd_density=391
 
 # Disable excessive dalvik debug messages
 PRODUCT_PROPERTY_OVERRIDES += \
