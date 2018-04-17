@@ -62,4 +62,8 @@
     <!-- Flag indicating whether the assist disclosure can be disabled using
          ASSIST_DISCLOSURE_ENABLED. -->
     <bool name="config_allowDisablingAssistDisclosure">true</bool>
+
+    <!-- Set Google Autofill Service as default -->
+    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/com.google.android.gms.autofill.service.AutofillService</string>
+
 </resources> 
